@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(20,0,30);
+}
+
+.navbar-nav .nav-link:hover {
+    font-weight: bold ;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link{
+    font-size: 20px; 
+  }
+
+  .navbar-brand{
+    font-size: 25px;
+  }
+
+  .navbar-dark{
+    background-color: rgb(18,1,46);
+  }
+
+  .circular-image-container{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 250%;
+    border: 2px solid  #ccc;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+  }  
+
+  .circular-image{
+    width: 120%;
+    height: auto;
+    display: block;
+  }
+.name{
+  color: #fff;
+}
+.title{
+  color: azure;
+}
