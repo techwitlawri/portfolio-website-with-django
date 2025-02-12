@@ -43,3 +43,13 @@ body{
 .title{
   color: azure;
 }
+
+.social_link{
+  overflow: hidden;
+    border-radius: 250%;
+    border: 2px solid  #ccc;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
