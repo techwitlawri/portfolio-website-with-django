@@ -38,10 +38,10 @@ body{
     display: block;
   }
 .name{
-  color: #fff;
+    color: #fff;
 }
 .title{
-  color: azure;
+    color: azure;
 }
 
 .social_link{
@@ -55,25 +55,32 @@ body{
 }
 
 .about_image{
-  width:200px;
-  height: auto;
-  display:block;
+    width:200px;
+    height: auto;
+    display:block;
 }
 
 
 
 .jumbtron{
-  background-color: #002244;
-  padding: 20px;
-  border-radius : 10px;
+    background-color: #002244;
+    padding: 20px;
+    border-radius : 10px;
 }
 
 .display4{
-  color: #eef3f8;
-  font-size:24px;
+    color: #eef3f8;
+    font-size:24px;
 }
 
 .lead{
-  font-size: 18px;
-  color:black;
+    font-size: 18px;
+    color:black;
+}
+
+.form-container{
+    border:2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0f0;
 }
