@@ -39,3 +39,23 @@ def projects(request):
         },
     ]
     return render (request, "projects.html", {"projects_show": projects_show})
+
+def experience(request):
+    experience=[
+        {
+            "company": "Digital Fortress",
+            "position": "Python student"
+        }
+    ]
+    return render (request, "experience.html", {'experience': experience})
+
+
+def certificate(request):
+    return render (request, "certificate.html")
+
+def contact(request):
+    return render (request, "contact.html")
+
+
+def resume(request):
+    return render (request, "resume.html")
